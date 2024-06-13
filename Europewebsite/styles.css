@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Holiday;
+    src: url(Holiday.otf);
+}
+
+body {
+    background-color: #E7F0FA;
+    padding: 20px 30px 10px 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-family:'Holiday', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00ABE4;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40pt;
+}
+h2 {
+    margin-top: 30px;
+    color: #00ABE4;
+    margin-bottom: 15px;
+}
+h3 {
+    margin-top: 30px;
+    color: #3a49a9;
+    margin-bottom: 10px;
+}
+p {
+    color: #1C0978;
+    margin-bottom: 5px;
+}
+img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+a:link, a:visited {
+    color: #4343d4;
+    text-decoration: none;
+}
+a:hover {
+    color: #454372;
+    text-decoration: underline;
+}

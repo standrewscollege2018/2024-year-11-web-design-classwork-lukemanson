@@ -1,0 +1,48 @@
+/* Override a tag's presets by entering its name */
+@font-face {
+    font-family: Comic Sans MS;
+    src: url(firstwebsite\Comic-Sans-MS.ttf);
+}
+@font-face {
+    font-family: Minecraftia;
+    src: url(Minecraftia-Regular.ttf);
+}
+/* The universal selector changes all tags! */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #EF946C;
+    font-family: Comic Sans MS, sans-serif;
+    /* Top-Right-Bottom-Left (clockwise) */
+    padding: 20px 30px 20px 30px;
+}
+p {
+    color: #454372;
+    margin: 10px;
+}
+h1 {
+    color: #2F2963;
+    font-family: Minecraftia, sans-serif;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #2F2963;
+}
+ul,ol {
+    color: #505720;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+a:link, a:visited {
+    color: #0e8a2d;
+    text-decoration: none;
+}
+a:hover {
+    color: #454372;
+    text-decoration: underline;
+}
+.welcome {
+    font-family: Minecraftia, sans-serif;
+}
