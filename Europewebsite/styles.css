@@ -46,3 +46,23 @@ a:hover {
     color: #454372;
     text-decoration: underline;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.card {
+    border: 1px solid #123456;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card h2 {
+    padding: 0px 15px;
+}
+.card p {
+    padding: 15px;
+}
