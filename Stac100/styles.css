@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #022842;
+    background-color: #226096;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -16,11 +16,12 @@ body {
 .buttons {
     text-align: center;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .buttons button {
     border: none;
-    color: black;
+    color: #132059;
     background-color: white;
     padding: 15px 32px;
     text-align: center;
@@ -58,13 +59,33 @@ body {
 .whole-website {
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: white;
 }
 
 .whatson {
-    color: #06436b;
+    color: #0042ad;
     margin-bottom: 10px;
 }
 
 .date {
-    color: #0763a1;
+    margin-top: 10px;
+    color: #0464ff;
+}
+.leftp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.video {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.datetext {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.social-bar {
+    background-color: #d3d3d3;
+    text-align: center;
 }
