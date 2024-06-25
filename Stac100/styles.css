@@ -89,3 +89,18 @@ body {
     background-color: #d3d3d3;
     text-align: center;
 }
+@media only screen and (max-width:1000px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .whatson {
+        display: none;
+    }
+    .side-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .social-bar {
+        margin-top: 20px;
+    }
+}
