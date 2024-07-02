@@ -1,0 +1,20 @@
+@font-face {
+    font-family: GoodDog;
+    src: url(good_dog\gooddp.ttf);
+}
+
+body {
+    text-align: center;
+}
+
+#board {
+    /* background-color: green; */
+    background-image: url("./doodlejumpbg.png");
+}
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+h1 {
+    font-family: GoodDog, sans-serif;
+}
